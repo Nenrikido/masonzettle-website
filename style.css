@@ -28,6 +28,14 @@ li {
   padding-top: 0.5vw;
 }
 
+button {
+  font-family: Roboto;
+  font-size: 20px;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0.5px 0.5px #414141
+}
+
 body {
   background-color: rgb(240, 240, 240);
   padding-top: 4vw;
@@ -64,14 +72,12 @@ body {
     background-color: rgb(55, 105, 190);
     transition: 1s ease;
     outline: none;
-
-    font-family: Roboto;
-    color: white;
 }
 
 #navbar #navlist li button:hover {
     background-color: rgb(95, 145, 230);
-    transition: 1s ease;
+    transition: 0.5s ease;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8.5px 25px 0 rgba(0,0,0,0.19);
 }
 
 #home,
@@ -85,7 +91,7 @@ body {
 }
 
 #navbar #navlist li .active {
-    background-color: rgb(95, 145, 230);
+    background-color: rgb(80, 135, 220);
 }
 
 #navbar #navlist li .active:hover {
