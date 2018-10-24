@@ -10,3 +10,84 @@ p {
   color: black;
   font-family: Lato;
 }
+
+nav {
+  float:right;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+  display: inline-block;
+  float: right;
+  margin-right: 2vw;
+  padding-top: 1vh;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  padding-top: 8vh;
+}
+
+#navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 8vh;
+
+    background-color: rgb(75, 125, 210);
+
+    box-shadow: 0vw 0.1vh 2px grey;
+}
+
+#navbar img {
+    width: 8vw;
+    height: 8vh;
+
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+
+#navbar #navlist li button {
+    width: 15vw;
+    height: 6vh;
+
+    border: none;
+
+    background-color: rgb(55, 105, 190);
+    transition: 1s ease;
+    outline: none;
+
+    font-family: Roboto;
+    color: white;
+}
+
+#navbar #navlist li button:hover {
+    background-color: rgb(95, 145, 230);
+    transition: 1s ease;
+}
+
+#home,
+#projects {
+    display: none;
+}
+
+#main.home #home,
+#main.projects #projects {
+    display: block;
+}
+
+#navbar #navlist li .active {
+    background-color: rgb(95, 145, 230);
+}
+
+#navbar #navlist li .active:hover {
+    background-color: rgb(95, 145, 230);
+}
