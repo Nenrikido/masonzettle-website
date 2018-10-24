@@ -30,7 +30,7 @@ li {
 
 body {
   background-color: rgb(240, 240, 240);
-  padding-top: 6vw;
+  padding-top: 4vw;
 }
 
 #navbar {
@@ -39,7 +39,7 @@ body {
     left: 0;
 
     width: 100%;
-    height: 6vw;
+    height: 4vw;
 
     background-color: rgb(75, 125, 210);
 
@@ -47,8 +47,8 @@ body {
 }
 
 #navbar img {
-    width: 6vw;
-    height: 6vw;
+    width: 4vw;
+    height: 4vw;
 
     display: block;
     margin: 0 auto;
@@ -57,7 +57,7 @@ body {
 
 #navbar #navlist li button {
     width: 15vw;
-    height: 4vw;
+    height: 2vw;
 
     border: none;
 
