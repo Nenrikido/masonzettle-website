@@ -24,8 +24,8 @@ ul {
 li {
   display: inline-block;
   float: right;
-  margin-right: 2vw;
-  padding-top: 1vw;
+  margin-right: 1vw;
+  padding-top: 0.5vw;
 }
 
 body {
@@ -57,7 +57,7 @@ body {
 
 #navbar #navlist li button {
     width: 15vw;
-    height: 2vw;
+    height: 3vw;
 
     border: none;
 
