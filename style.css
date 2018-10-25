@@ -24,13 +24,13 @@ ul {
 li {
   display: inline-block;
   float: right;
-  margin-right: 3vw;
+  margin-right: 5vw;
   padding-top: 0.5vw;
 }
 
 button {
   font-family: Roboto;
-  font-size: 4vw;
+  font-size: 3vw;
   color: white;
 }
 
