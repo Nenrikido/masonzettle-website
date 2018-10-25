@@ -32,13 +32,35 @@ button {
   font-family: Roboto;
   font-size: 20px;
   color: white;
-  border-radius: 4px;
-  text-shadow: 0.5px 0.5px #414141
+}
+
+button:hover {
+  cursor:pointer;
+  color: black;
+  transition: 0.25s;
 }
 
 body {
   background-color: rgb(240, 240, 240);
   padding-top: 4vw;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #navbar {
@@ -64,20 +86,14 @@ body {
 }
 
 #navbar #navlist li button {
-    width: 15vw;
+    width: 5vw;
     height: 3vw;
 
     border: none;
 
-    background-color: rgb(55, 105, 190);
+    background-color: rgb(75, 125, 210);
     transition: 1s ease;
     outline: none;
-}
-
-#navbar #navlist li button:hover {
-    background-color: rgb(95, 145, 230);
-    transition: 0.5s ease;
-    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8.5px 25px 0 rgba(0,0,0,0.19);
 }
 
 #home,
@@ -88,12 +104,4 @@ body {
 #main.home #home,
 #main.projects #projects {
     display: block;
-}
-
-#navbar #navlist li .active {
-    background-color: rgb(80, 135, 220);
-}
-
-#navbar #navlist li .active:hover {
-    background-color: rgb(95, 145, 230);
 }
