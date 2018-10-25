@@ -24,7 +24,7 @@ ul {
 li {
   display: inline-block;
   float: right;
-  margin-right: 3em;
+  margin-right: 3vw;
   padding-top: 0.5vw;
 }
 
