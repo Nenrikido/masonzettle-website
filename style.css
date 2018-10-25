@@ -35,9 +35,8 @@ button {
 }
 
 button:hover {
-  cursor:pointer;
+  cursor: pointer;
   color: black;
-  transition: 0.25s;
 }
 
 body {
@@ -94,6 +93,23 @@ body {
     background-color: rgb(75, 125, 210);
     transition: 1s ease;
     outline: none;
+}
+
+#navbar #navlist li button::before {
+  content: '';
+  display: block;
+  hight: 5px;
+  background: black;
+  position: absolute;
+  top: -.75em;
+  left: 0;
+  right: 0;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 250ms;
+}
+
+#navbar #navlist li button:hover::before {
+  transform: scale(1,1);
 }
 
 #home,
