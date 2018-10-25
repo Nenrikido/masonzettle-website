@@ -15,21 +15,3 @@ body {
   background-color: rgb(240, 240, 240);
   padding-top: 4vw;
 }
-
-.column {
-    float: left;
-}
-
-.left {
-  width: 75%;
-}
-
-.right {
-  width: 25%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
