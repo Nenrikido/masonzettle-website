@@ -21,6 +21,7 @@ header {
 }
 
 h1 {
+  line-height: 15vh;
   font-family: Oswald;
   font-size: 100px;
   font-weight: normal;
@@ -29,6 +30,7 @@ h1 {
 }
 
 h3 {
+  line-height: 6vh;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: lighter;
