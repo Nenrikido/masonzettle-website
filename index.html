@@ -1,15 +1,69 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mason Zettlemoyer</title>
     <link rel="shortcut icon" type="image/png" href="./Icons/favicon.png">
-    <link href="./style.css" rel="stylesheet">
-    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   </head>
   <body>
-    <div class="home">
-      <h2>Constructing Site</h2>
-      <p>The site will change frequently.</p>
+    <!-- Navbar -->
+    <div class="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <a href="#"><img class="logo" src="./Icons/favicon.png" alt="Logo Here"></a>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Header -->
+        <div class="header">
+          <center>
+            <h1>Hello,</h1>
+            <h3>my name is Mason Zettlemoyer.</h3>
+          </center>
+        </div>
+      </header>
+      <div class="content">
+        <center>
+          <h2>Website is Currently Under Construction...<h2>
+        </center>
+      </div>
     </div>
+    <script type="text/javascript">
+
+       // Menu-toggle button
+
+       $(document).ready(function() {
+             $(".menu-icon").on("click", function() {
+                   $("nav ul").toggleClass("showing");
+             });
+       });
+
+       // Scrolling Effect
+
+       $(window).on("scroll", function() {
+             if($(window).scrollTop()) {
+                   $('nav').addClass('black');
+             }
+
+             else {
+                   $('nav').removeClass('black');
+             }
+       })
+     </script>
   </body>
 </html>
