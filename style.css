@@ -120,6 +120,9 @@ nav ul li a {
 
 /*----------footer----------*/
 footer {
+  position: absolute;
+  bottom: 0%;
+
   width: 100%;
   background: #222;
   background-size: cover;
@@ -141,7 +144,7 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  padding: 16px 40px;
+  padding: 60px 60px;
 }
 
 .icon {
