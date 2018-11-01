@@ -120,6 +120,9 @@ nav ul li a {
 
 /*----------footer----------*/
 footer {
+  position: absolute;
+  bottom: 0%;
+
   width: 100%;
   background: #222;
   background-size: cover;
