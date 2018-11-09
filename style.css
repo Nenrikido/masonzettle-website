@@ -147,21 +147,10 @@ footer {
 }
 
 footer ul {
-  line-height: 60px;
-  list-style: none;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
-  align-content: center;
   padding: 0;
-  margin: 0;
-  padding-right: 40px;
   transition: 1s;
-  margin-left: 41%;
-  display: inline-block;
-}
-
-footer ul li {
-  display: inline-block;
+  justify-content: center;
+  display: flex;
 }
 
 .icon {
